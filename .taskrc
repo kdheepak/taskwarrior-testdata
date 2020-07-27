@@ -1,0 +1,84 @@
+data.location=.task
+
+uda.priority.values=H,M,,L
+
+color.alternate=
+rc.debug=off
+
+journal.time=on
+
+alias.burndown=burndown.daily
+color.burndown.done=color0 on white
+color.burndown.pending=color0 on color2
+color.burndown.started=color0 on color4
+color.tagged=black on rgb444
+
+detection=off
+# punt push to next day
+alias.punt=modify wait:1d
+
+# someday shortcut
+alias.someday=mod +someday wait:someday
+
+alias.note=annotate
+
+# Shortcuts
+alias.dailystatus=status:completed end.after:today all
+
+# Set active task indicator
+active.indicator=>
+
+# Case insensitive search
+search.case.sensitive=no
+
+# Remove more urgent tasks nag message on commands.
+nag=
+
+urgency.age.coefficient=0.0
+urgency.age.max=0.0
+urgency.annotations.coefficient=0.0
+urgency.inherit=on
+urgency.user.tag.personal.coefficient=-0.8
+urgency.tags.coefficient=0
+urgency.uda.priority..coefficient=1.8
+urgency.uda.priority.L.coefficient=0
+uda.priority.values=U,H,M,L
+urgency.uda.priority.U.coefficient=15.0
+color.uda.priority.U=red
+color.uda.priority.L=blue
+color.uda.priority.M=yellow
+color.uda.priority.H=green
+color.project.wth=green on black
+color.tagged=red on blue
+# Add UDA task estimation in minutes, default 30.
+uda.estimate.type=string
+uda.estimate.label=Est
+uda.estimate.default=30
+
+# Add context
+context.work=-personal -private
+context.personal=+personal -private
+context.finance=+finance -private
+
+# Remove age, tags from task next report.
+report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.truncated_count,urgency
+report.next.filter=status:pending -private
+
+report.completed.labels=UUID,Completed,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
+report.completed.columns=uuid,end.age,depends,priority,project,tags.count,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
+report.completed.filter=status:completed limit:10
+report.completed.sort=end-
+
+report.all.sort=end-
+uda.url.type=string
+uda.url.label=Url
+
+
+# attribute issue (number)
+uda.issue.type=numeric
+uda.issue.label=Issue
+
+# attribute person
+uda.person.type=string
+uda.person.label=Person
