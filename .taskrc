@@ -83,4 +83,5 @@ uda.issue.label=Issue
 uda.person.type=string
 uda.person.label=Person
 
-taskwarrior-tui.keyconfig.quit=Q
+uda.taskwarrior-tui.keyconfig.done=x
+uda.taskwarrior-tui.keyconfig.delete=d
