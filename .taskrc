@@ -82,3 +82,5 @@ uda.issue.label=Issue
 # attribute person
 uda.person.type=string
 uda.person.label=Person
+
+taskwarrior-tui.keyconfig.quit=Q
