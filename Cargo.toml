@@ -1,5 +1,5 @@
 [package]
-name = "data"
+name = "taskwarrior-data"
 version = "0.1.0"
 authors = ["Dheepak Krishnamurthy <me@kdheepak.com>"]
 edition = "2018"
