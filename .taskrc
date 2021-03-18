@@ -85,3 +85,4 @@ uda.person.label=Person
 
 uda.taskwarrior-tui.keyconfig.done=x
 uda.taskwarrior-tui.keyconfig.delete=d
+uda.taskwarrior-tui.shortcuts.0=~/local/bin/fn
