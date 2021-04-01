@@ -1,0 +1,35 @@
+data.location=.task
+
+uda.priority.values=H,M,,L
+
+color.alternate=
+rc.debug=off
+
+include ~/.local/Cellar/task/2.5.3/share/doc/task/rc/solarized-dark-256.theme
+
+color.tagged=gray on white
+
+journal.time=on
+
+detection=off
+
+# Add context
+context.work=-personal -private
+context.personal=+personal -private
+context.finance=+finance -private
+
+# Remove age, tags from task next report.
+report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.truncated_count,urgency
+report.next.filter=status:pending -private
+
+# attribute issue (number)
+uda.issue.type=numeric
+uda.issue.label=Issue
+
+# attribute person
+uda.person.type=string
+uda.person.label=Person
+
+uda.taskwarrior-tui.task-report.pre-fill-task-meta-data=true
+uda.taskwarrior-tui.shortcuts.1=~/local/bin/add-personal-tag.sh
