@@ -58,7 +58,7 @@
         "entry": "20210210T083413Z"
       }
     ],
-    "depends": "6c4c9ee8-d6c4-4d64-a84d-bf9cb710684e,be9c4324-bf96-4f15-904a-4bb8098500fe",
+    "depends": ["6c4c9ee8-d6c4-4d64-a84d-bf9cb710684e","be9c4324-bf96-4f15-904a-4bb8098500fe"],
     "description": "Start and Stop task using 's'",
     "due": "20210719T060000Z",
     "entry": "20201021T065341Z",
@@ -107,7 +107,7 @@
     "uuid": "6c4c9ee8-d6c4-4d64-a84d-bf9cb710684e"
   },
   {
-    "depends": "6c4c9ee8-d6c4-4d64-a84d-bf9cb710684e",
+    "depends": ["6c4c9ee8-d6c4-4d64-a84d-bf9cb710684e"],
     "description": "Toggle between task and calendar view using '[' and ']'",
     "entry": "20201023T075829Z",
     "estimate": "30",
