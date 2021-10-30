@@ -59,6 +59,7 @@ uda.estimate.default=30
 context.work=-personal -private
 context.personal=+personal -private
 context.finance=+finance -private
+context.noproject=project:
 
 # Remove age, tags from task next report.
 report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
@@ -88,3 +89,4 @@ uda.taskwarrior-tui.keyconfig.delete=d
 uda.taskwarrior-tui.shortcuts.0=~/local/bin/fn
 uda.taskwarrior-tui.shortcuts.5=~/local/bin/fn
 uda.taskwarrior-tui.shortcuts.9=~/local/bin/fn
+context.bers1.read=-AReallyLongTagNameToFillTheFirstLine -ASecondTagNameExampleILikeDucks -AThirdTagNameYouGetThePoint +finance -private
