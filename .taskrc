@@ -64,7 +64,7 @@ context.noproject=project:
 # Remove age, tags from task next report.
 report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
 report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.truncated_count,urgency
-report.next.filter=status:pending -private
+report.next.filter=(status:pending or status:waiting)
 
 report.completed.labels=UUID,Completed,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
 report.completed.columns=uuid,end.age,depends,priority,project,tags.count,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
