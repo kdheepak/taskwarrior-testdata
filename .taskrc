@@ -62,9 +62,9 @@ context.finance=+finance -private
 context.noproject=project:
 
 # Remove age, tags from task next report.
-report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
-report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description.truncated_count,urgency
-report.next.filter=(status:pending or status:waiting)
+report.next.labels=ID,Active,Age,Deps,P,Project,Tag,Recur,S,Scheduled,Due,Until,Description,Urg
+report.next.columns=id,start.age,entry.age,depends,priority,project,tags,recur,scheduled.countdown,scheduled.relative,due.relative,until.remaining,description.truncated_count,urgency
+report.next.filter=status:pending or status:waiting
 
 report.completed.labels=UUID,Completed,Deps,P,Project,Tag,Recur,S,Due,Until,Description,Urg
 report.completed.columns=uuid,end.age,depends,priority,project,tags.count,recur,scheduled.countdown,due.relative,until.remaining,description.count,urgency
@@ -90,3 +90,6 @@ uda.taskwarrior-tui.shortcuts.0=~/local/bin/fn
 uda.taskwarrior-tui.shortcuts.5=~/local/bin/fn
 uda.taskwarrior-tui.shortcuts.9=~/local/bin/fn
 context.bers1.read=-AReallyLongTagNameToFillTheFirstLine -ASecondTagNameExampleILikeDucks -AThirdTagNameYouGetThePoint +finance -private
+
+uda.taskwarrior-tui.selection.reverse=yes
+uda.taskwarrior-tui.style.report.scrollbar=red
