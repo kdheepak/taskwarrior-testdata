@@ -86,6 +86,7 @@ uda.person.label=Person
 
 uda.taskwarrior-tui.keyconfig.done=x
 uda.taskwarrior-tui.keyconfig.delete=d
+uda.taskwarrior-tui.task-report.prompt-on-delete=true
 uda.taskwarrior-tui.shortcuts.0=~/local/bin/fn
 uda.taskwarrior-tui.shortcuts.5=~/local/bin/fn
 uda.taskwarrior-tui.shortcuts.9=~/local/bin/fn
@@ -93,3 +94,5 @@ context.bers1.read=-AReallyLongTagNameToFillTheFirstLine -ASecondTagNameExampleI
 
 uda.taskwarrior-tui.selection.reverse=yes
 uda.taskwarrior-tui.style.report.scrollbar=red
+uda.taskwarrior-tui.task-report.auto-insert-double-quotes-on-add=true
+uda.taskwarrior-tui.task-report.auto-insert-double-quotes-on-annotate=false
