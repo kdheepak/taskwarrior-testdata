@@ -49,7 +49,8 @@ color.uda.priority.L=blue
 color.uda.priority.M=yellow
 color.uda.priority.H=green
 color.project.wth=green on black
-color.tagged=red on blue
+color.project.basics=blue on color255
+color.tagged=yellow on color255
 # Add UDA task estimation in minutes, default 30.
 uda.estimate.type=string
 uda.estimate.label=Est
@@ -96,3 +97,22 @@ uda.taskwarrior-tui.selection.reverse=yes
 uda.taskwarrior-tui.style.report.scrollbar=red
 uda.taskwarrior-tui.task-report.auto-insert-double-quotes-on-add=true
 uda.taskwarrior-tui.task-report.auto-insert-double-quotes-on-annotate=false
+uda.taskwarrior-tui.task-report.date-time-vague-more-precise=false
+
+report.day.description=Tasks for today
+report.day.columns=id,type,eta,tags,project,description.desc,planned,priority,due
+report.day.filter=status:pending
+report.day.sort=type-/,eta-/,urgency-
+
+uda.eta.type=string
+uda.eta.label=ETA
+uda.eta.values=overdue,day,week,month,
+uda.planned.type=date
+uda.planned.label=Planned
+uda.type.type=string
+uda.type.label=Type
+uda.type.values=goal,
+uda.size.type=string
+uda.size.label=Size
+uda.size.values=large,medium,small
+uda.size.default=medium
