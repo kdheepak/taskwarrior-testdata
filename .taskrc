@@ -116,3 +116,6 @@ uda.size.type=string
 uda.size.label=Size
 uda.size.values=large,medium,small
 uda.size.default=medium
+
+color.uda.jirastatus.In Review=black on bright cyan
+color.uda.jirastatus.To Do=bright white
